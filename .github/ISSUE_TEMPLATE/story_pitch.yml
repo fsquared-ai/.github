@@ -1,0 +1,44 @@
+name: Everduck story pitch
+description: Pitch a new Everduck episode or story idea
+title: "story: "
+labels: ["everduck", "story"]
+body:
+  - type: input
+    id: episode_id
+    attributes:
+      label: Episode ID (optional)
+      description: If known, use ED-YYYYMMDD-###-slug
+    validations:
+      required: false
+
+  - type: textarea
+    id: premise
+    attributes:
+      label: Premise
+      description: What is the story about (1–3 sentences)?
+    validations:
+      required: true
+
+  - type: textarea
+    id: beats
+    attributes:
+      label: Beat outline
+      description: List 5–10 beats (setup → twist → payoff).
+    validations:
+      required: true
+
+  - type: textarea
+    id: takeaway
+    attributes:
+      label: Educational takeaway
+      description: What should the audience learn?
+    validations:
+      required: true
+
+  - type: textarea
+    id: visuals
+    attributes:
+      label: Visual notes
+      description: Scenes, props, UI overlays, mood, camera ideas.
+    validations:
+      required: false

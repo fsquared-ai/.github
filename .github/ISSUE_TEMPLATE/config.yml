@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Support
+    url: https://github.com/fsquared-ai
+    about: Check the org profile and open an issue in the relevant repo.
